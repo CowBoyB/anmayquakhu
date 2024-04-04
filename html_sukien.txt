@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schage</title>
+    <link rel="stylesheet" href="css_sukien.css" />
+  </head>    
+  <body>
+    <div id="hangtren">
+      <img src="https://i.imgur.com/swjrghn.png" id="logo" />
+      <ul>
+        <li><a href="html_tongquan.html"><h3>Trang chủ</h3></a></li>
+        <li><a href="html_forum.html"><h3>Forum</h3></a></li>
+        <li><a href="html_thongbao.html"><h3>Thông báo</h3></a></li>
+      </ul>
+    </div>
+    <div class="hangduoi">
+      <div class="hangduoi left">
+        <div id="info">
+          <img
+            id="infoanh"
+            src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/417700232_680802110923480_4296232978501992134_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGJj8tfGjyZ91OGneAFoK7aQTAGas23K05BMAZqzbcrTtu2uxvSp1kA7dQBfF7iN5ZCT5sjqEqsLspyUa9NvzFW&_nc_ohc=y-duG4tX0IYAX-gPacA&_nc_ht=scontent.fhan5-10.fna&oh=00_AfDs5-Ea24_t9hO-k1X2c-O18pddtWeE8MeStuZwJSQOXA&oe=65BA54A9"
+            alt="info-anh"
+          />
+          <h2>Cao Thị Cờ Rát</h2>
+          <h4>Hiệu trưởng</h4>
+        </div>
+        <div id="tinhnang">
+          <ul>
+            <li><a href="html_tongquan.html"><h4>Tổng quan</h4></a></li>
+            <li><a href="html_giamsat.html"><h4>Giám sát</h4></a></li>
+            <li><a href="html_thoikhoabieu.html"><h4>Thời khóa biểu</h4></a></li>
+            <li><a href="html_thicu.html"><h4>Thi cử</h4></a></li>
+            <li><a href="html_sukien.html"><h4>Sự kiện</h4></a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.facebook.com/cras.cma.club" target="_blank">
+        <div class= "hangduoi right1">
+        <h3>Sự kiện MODERA</h3>
+        <img id="Modera" src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/415521735_793721426105015_415774735556771320_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEyN-dAXfD4I9zlneGsSu2IxtRStjPphPDG1FK2M-mE8B2ax5UXjh-MXmdoZp9VTCUZZLRLm0UUEGmtmpAi-Igy&_nc_ohc=D-6ULe30dUAAX-MPthy&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAnI6jbjo61hc4WdqrnUYkIsr7ld6sY36yDMqxL4NFAFw&oe=65BA4BDF"/>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/cras.cma.club" target="_blank">
+      <div class= "hangduoi right2">
+        <h3>AliA3 vào vòng 2</h3>
+        <img id="Modera" src="https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/421681683_808607121283112_6542393877695499366_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHvhGlDi08dnpoMvADc20YzUNFIODMUav9Q0Ug4MxRq_01_p-478PTM3rTNK9oLgCaKN_aSFh_LfYly5fUgB3Fc&_nc_ohc=gb0aIBmKKCAAX_Zz5vU&_nc_ht=scontent.fhan15-2.fna&oh=00_AfAMQulV1npsIrCAoyVlY_VZL2WDNYZwi1EGAnmNMwEPEg&oe=65BAFDD1"/>
+      </div>
+      </a>
+      <div class= "hangsieuduoi">
+      <a href="https://www.facebook.com/cras.cma.club" target="_blank">
+      <div class= "hangsieuduoi right1">
+        <h3>Ban giám khảo Modera</h3>
+        <img id="Modera" src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/418968160_801179305359227_189539499731288795_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHVx7JEqlBMcKYABaaBuJgelsX2BDs8VuuWxfYEOzxW6w6ODL162ItajUnFZZjgodrLzyGd8bWzV48vhcg3DIu5&_nc_ohc=zm5FPcLL2EMAX_buQ-Z&_nc_ht=scontent.fhan5-8.fna&oh=00_AfBgNKwynLnxgaVjKMEjy0izYpO-H9xoJgYp7EvtYsT4ZQ&oe=65BAE9C6"/>
+      </div>
+      </a>
+      </div>
+      </a>
+    </div>
+  </body>
+</html>

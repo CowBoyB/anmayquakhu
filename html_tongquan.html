@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schage</title>
+    <link rel="stylesheet" href="css_tongquan.css" />
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Ngày', 'Lớp 10', 'Lớp 11', 'Lớp 12'],
+          ['11/9', 64, 72, 128],
+          ['12/9', 75, 67, 97],
+          ['13/9', 216, 289, 197],
+          ['14/9', 55, 43, 60],
+          ['15/9', 397, 256, 466],
+          ['16/9', 20, 57, 38]
+        ]);
+        var options = {
+          chart: {
+            title: '',
+            subtitle: '',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>    
+  <body>
+    <div id="hangtren">
+      <img src="https://i.imgur.com/swjrghn.png" id="logo" />
+      <ul>
+        <li><a href="html_tongquan.html"><h3>Trang chủ</h3></a></li>
+        <li><a href="html_forum.html"><h3>Forum</h3></a></li>
+        <li><a href="html_thongbao.html"><h3>Thông báo</h3></a></li>
+      </ul>
+    </div>
+    <div class="hangduoi">
+      <div class="hangduoi left">
+        <div id="info">
+          <img
+            id="infoanh"
+            src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/417700232_680802110923480_4296232978501992134_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGJj8tfGjyZ91OGneAFoK7aQTAGas23K05BMAZqzbcrTtu2uxvSp1kA7dQBfF7iN5ZCT5sjqEqsLspyUa9NvzFW&_nc_ohc=y-duG4tX0IYAX-gPacA&_nc_ht=scontent.fhan5-10.fna&oh=00_AfDs5-Ea24_t9hO-k1X2c-O18pddtWeE8MeStuZwJSQOXA&oe=65BA54A9"
+            alt="info-anh"
+          />
+          <h2>Cao Thị Cờ Rát</h2>
+          <h4>Hiệu trưởng</h4>
+        </div>
+        <div id="tinhnang">
+          <ul>
+            <li><a href="html_tongquan.html"><h4>Tổng quan</h4></a></li>
+            <li><a href="html_giamsat.html"><h4>Giám sát</h4></a></li>
+            <li><a href="html_thoikhoabieu.html"><h4>Thời khóa biểu</h4></a></li>
+            <li><a href="html_thicu.html"><h4>Thi cử</h4></a></li>
+            <li><a href="html_sukien.html"><h4>Sự kiện</h4></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hangduoi right1">
+        <h3>Thống kê học sinh đi học muộn</h3>
+        <h5>Tuần 2: 11-16/09/2023</h5>
+        <div id="barchart_material" style="width: 450px; height: 490px;" ></div>
+      </div>
+      <a href="https://www.facebook.com/cras.cma.club" target="_blank">
+      <div class="hangduoi right2">
+        <h3>Sự kiện MODERA</h3>
+        <img id="modera" src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/415521735_793721426105015_415774735556771320_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEyN-dAXfD4I9zlneGsSu2IxtRStjPphPDG1FK2M-mE8B2ax5UXjh-MXmdoZp9VTCUZZLRLm0UUEGmtmpAi-Igy&_nc_ohc=D-6ULe30dUAAX-sIUMA&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAYcQCowNeEgnIdMaNqIWk1JqSwniU9g5QHJ52bpB-lvg&oe=65B8519F">
+      </div>
+      </a>
+    </div> 
+  </body>
+</html>
